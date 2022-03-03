@@ -80,6 +80,7 @@ header{
     justify-content: center;
     flex-direction: column;
 }
+
 .abajo{
     display: flex;
     align-items: flex-end;

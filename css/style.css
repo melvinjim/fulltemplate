@@ -201,7 +201,7 @@ header{
     flex-direction: column;
     border: dashed 1px black;
     width: 454px;
-    height: 350px;
+    height: 377px;
 }
 
 .first-text{
@@ -229,6 +229,7 @@ header{
 .second-header{
     color: rgb(86 86 86);
     font-size: 14px;
+    margin-left: 5px;
 }
 
 .first-title{

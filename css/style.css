@@ -78,10 +78,10 @@ header{
     width: 500px;
     height: 300px;
     display: flex;
-    margin-left: 60px;
+    margin-left: -15px;
     flex-direction: column;
     margin-top: 115px;
-    margin-right: 130px;
+    margin-right: 220px;
 }
 
 .box-text-unic-down{

@@ -179,3 +179,67 @@ header{
     margin-top: 50px;
 }
 
+.second-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1250px;
+    height: 700px;
+}
+
+.first-imagen{
+    display: flex;
+    align-items: flex-start;
+    width: auto;
+    height: 700px;
+    margin-right: 50px;
+    margin-left: 140px;
+}
+
+.second-container-text{
+    display: flex;
+    flex-direction: column;
+    border: dashed 1px black;
+    width: 454px;
+    height: 350px;
+}
+
+.first-text{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.drew{
+    width: 10.4px;
+    height: 2.7px;
+    margin-top: 9px;
+    background-color: #f00;
+}
+
+.second-drew{
+    width: 3px;
+    height: 2.7px;
+    margin-top: 9px;
+    background-color: #f00;
+    margin-left: 2px;
+}
+
+.second-header{
+    color: rgb(86 86 86);
+    font-size: 14px;
+}
+
+.first-title{
+    font-size: xx-large;
+    width: auto;
+    height: 50px;
+}
+
+.paragraph{
+    color: #707070;
+    width: auto;
+    height: auto;
+}
+

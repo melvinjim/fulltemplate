@@ -337,11 +337,12 @@ body{
 .text-page-three{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 50%;
 }
 
 .left-box{
-    width: 50%;
+    width: 40%;
     height: auto;
     display: flex;
     align-items: center;
@@ -352,7 +353,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 150px;
+    height: 140px;
     border: solid 2px #ff0000;
     margin-right: 30px;
 }
@@ -368,17 +369,17 @@ body{
 }
 
 .lorem{
-    color: gray;
+    color: #707070;
     font-size: 15px;
 }
 
 .fa-solid , .fa-laptop-code{
-    color: red;
+    color: #ff0000;
     font-size: 70px;
 }
 
 .right-box{
-    width: 50%;
+    width: 40%;
     height: auto;
     display: flex;
     align-items: center;
@@ -389,7 +390,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 150px;
+    height: 140px;
     border: solid 2px #ff0000;
     margin-right: 30px;
 }
@@ -407,12 +408,13 @@ body{
 .second-text-page-thre{
     display: flex;
     align-items: flex-start;
+    justify-content: center;
     height: 50%;
 }
 
 .second-left-box{
     display: flex;
-    width: 50%;
+    width: 40%;
     height: auto;
     align-items: center;
 }
@@ -422,7 +424,7 @@ body{
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 150px;
+    height: 140px;
     border: solid 2px #ff0000;
     margin-right: 30px;
 }
@@ -439,7 +441,7 @@ body{
 
 .second-right-box{
     display: flex;
-    width: 50%;
+    width: 40%;
     height: auto;
     display: flex;
     align-items: center;
@@ -455,17 +457,17 @@ body{
     justify-content: center;
     align-items: center;
     width: 25%;
-    height: 150px;
+    height: 140px;
     border: solid 2px #ff0000;
     margin-right: 30px;
 }
 
 .fa-brands , .fa-android{
-    color: red;
+    color: #ff0000;
     font-size: 70px;
 }
 
 .fa-brands , .fa-apple{
-    color: red;
+    color: #ff0000;
     font-size: 70px;
 }

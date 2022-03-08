@@ -270,7 +270,7 @@ body{
 .page-services{
     display: flex;
     flex-direction: column;
-    padding: 80px;
+    padding: 80px 80px 0 80px;
 }
 
 .what-i-do{
@@ -443,6 +443,44 @@ body{
 .fa-brands , .fa-apple{
     color: #ff0000;
     font-size: 70px;
+}
+
+.container-time-lines{
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.my-resume{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.drew-page-resume{
+    width: 20px;
+    height: 2.7px;
+    background-color: #f00;
+}
+
+.second-drew-page-resume{
+    width: 3px;
+    height: 2.7px;
+    margin-right: 5px;
+    background-color: #f00;
+    margin-left: 2px;
+}
+
+.text-my-resume{
+    color: #707070;
+}
+
+.body-text-resume{
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    color: #3c3c3c;
 }
 
 #special-price{

@@ -3,13 +3,13 @@ body{
     font-family: 'Montserrat';
 }
 
-#down-strip{
+#presentation-html{
     background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95));
     height: auto;
     border-bottom: dashed 0.1px rgb(233 233 233 / 30%);
 }
 
-#about{
+#presentation-body{
     background: linear-gradient(rgba(239, 35, 60, .95), rgba(239, 35, 60, .95));
 }
 
@@ -31,7 +31,7 @@ body{
     padding: 10px 0;
 }
 
-.boxes{
+.menus{
     width: auto;
 }
 
@@ -46,7 +46,7 @@ body{
     float: left;
 }
 
-#unic a{
+#botton-home a{
     color: #000;
 }
 
@@ -57,11 +57,11 @@ body{
     text-decoration: none;
 }
 
-#right a{
+#botton-contact a{
     padding-right: 0px;
 }
 
-.first-page{
+.image-and-text-presentation{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -71,7 +71,7 @@ body{
     margin-left: 80px;
 }
 
-.box-text-unic-down{
+.title-text{
     display: flex;
     align-items: flex-end;
     width: 190px;
@@ -80,7 +80,7 @@ body{
     font-size: 36px;
 }
 
-.box-text-name{
+.title-text-name{
     display: flex;
     align-items: center;
     height: 70px;
@@ -89,7 +89,7 @@ body{
     margin-top: 10px;
 }
 
-.box-text-down{
+.title-text-finish{
     height: 40px;
     color: #fff;
     font-size: 30px;
@@ -97,15 +97,15 @@ body{
     margin-top: 15px;
 }
 
+.button-hear-me{
+    display: flex;
+    justify-content: space-between;
+}
+
 .button{
     display: flex;
     justify-content:space-between;
     width: 245px;
-}
-
-.box-text-button{
-    display: flex;
-    justify-content: space-between;
 }
 
 .options-button{
@@ -131,12 +131,12 @@ body{
     text-decoration: none;
 }
 
-.button-box-second{
+.button-contact-me{
     width: auto;
     display: flex;
 }
 
-.options-button-second{
+.options-button-contact-me{
     border: 1px solid #ffffff;
     background-color: #ffffff;
     list-style: none;
@@ -145,12 +145,12 @@ body{
     overflow: hidden;
 }
   
-.options-button-second li{
+.options-button-contact-me li{
     float: left;
     margin: 10px;
 }
 
-.options-button-second li a {
+.options-button-contact-me li a {
     font-size: 15px;
     color: rgb(255, 0, 0);
     display: block;
@@ -158,11 +158,11 @@ body{
     text-decoration: none;
 }
 
-.image{
+.image-presentation{
     margin-top: 30px;
 }
 
-.first-image{
+.image-experience{
     display: flex;
     align-items: flex-start;
     width: auto;
@@ -170,7 +170,13 @@ body{
     margin-right: 50px;
 }
 
-.first-text{
+.experience-table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-experience{
     display: flex;
     width: auto;
     height: auto;
@@ -191,33 +197,28 @@ body{
     margin-left: 2px;
 }
 
-.second-page{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.second-header{
+.title-learn-about-me{
     color: rgb(86 86 86);
     font-size: 14px;
     margin-left: 5px;
 }
 
-.first-title{
+.title-years-experience{
     font-size: 40px;
     width: auto;
     height: 50px;
     margin-bottom: 10px;
 }
 
-.paragraph{
+.paragraph-experience{
     color: #707070;
     width: auto;
     height: auto;
     margin-bottom: 10px;
 }
 
-.first-porcentage-box{
+.container-web-design{
     display:flex;
     justify-content: space-between;
     margin-bottom: 4px;
@@ -225,7 +226,7 @@ body{
     margin-top: 20px;
 }
 
-.second-porcentage-box{
+.container-web-development{
     display:flex;
     justify-content: space-between;
     margin-bottom: 4px;
@@ -233,7 +234,7 @@ body{
     margin-top: 20px;
 }
 
-.third-porcentage-box{
+.container-app-design{
     display:flex;
     justify-content: space-between;
     margin-bottom: 4px;
@@ -241,7 +242,7 @@ body{
     margin-top: 20px;
 }
 
-.fourth-porcentage-box{
+.container-apps-development{
     display:flex;
     justify-content: space-between;
     margin-bottom: 4px;
@@ -264,7 +265,7 @@ body{
     margin-left: 5px;
 }
 
-.box-botton-learn-more{
+.style-botton-learn-more{
     border: 1px solid #ff0000;
     background-color: #ff0000;
     list-style: none;
@@ -273,14 +274,14 @@ body{
     overflow: hidden;
 }
   
-.box-botton-learn-more li{
+.style-botton-learn-more li{
     float: left;
     margin-left: 8px;
     margin-top: 10px;
     height: 40px;
 }
 
-.box-botton-learn-more li a {
+.style-botton-learn-more li a {
     font-size: 15px;
     color: rgb(255, 255, 255);
     display: block;

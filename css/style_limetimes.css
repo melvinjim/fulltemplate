@@ -3,7 +3,7 @@
 }
 
 #time-lines{
-    background-color: #f6f6f6;
+    background-color: #FCFCFC;
 }
 
 .linea-tiempo {
@@ -21,7 +21,7 @@
 .linea-tiempo::before {
     content: '';
     position: absolute;
-    width: 3px;
+    width: 2px;
     background-color: rgb(255, 0, 0);
     left: 50%;
     height: 100%;
@@ -30,6 +30,7 @@
 .momento {
     position: relative;
     width: 45%;
+    box-sizing: border-box;
 }
   
 .momento:nth-child(even) {
@@ -40,11 +41,12 @@
     content: '';
     position: absolute;
     top: calc(30% + 10px);
-    right: calc(-11.11% - 11.5px);
+    right: calc(-11.01% - 11.5px);
     height: 20px;
     width: 20px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255 255 255);
     border-radius: 50%;
+    border: red solid 2px;
 }
   
 .momento:nth-child(even)::after {
@@ -52,13 +54,14 @@
 }
   
 .momento .descripcion {
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     background-color: #FFF;
     padding: 20px;
     box-shadow: 0px 0px 14px 1px rgba(230,230,230,0.79);
+}
+
+.title-web-developer{
+    display: block;
+    margin-top: -6%;
 }
 
 .momento .descripcion::after {
@@ -70,22 +73,64 @@
     width: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 12px solid #aaaaaa;
+    border-left: 12px solid #EBEBEB;
+}
+
+.fecha-left-u{
+    position: relative;
+    left: 520px;
+    color: rgb(255, 0, 0);
+    top: 60px;
+}
+
+.fecha-left-t{
+    position: relative;
+    left: 500px;
+    color: rgb(255, 0, 0);
+    top: 40px;
+}
+
+.fecha-left-c{
+    position: relative;
+    left: 500px;
+    color: rgb(255, 0, 0);
+    top: 40px;
+}
+
+.fecha-right-d{
+    position: relative;
+    right: 180px;
+    color: rgb(255, 0, 0);
+    top: 40px;
+}
+
+.fecha-right-c{
+    position: relative;
+    right: 180px;
+    color: rgb(255, 0, 0);
+    top: 40px;
+}
+
+.fecha-right-s{
+    position: relative;
+    right: 180px;
+    color: rgb(255, 0, 0);
+    top: 40px;
 }
 
 .left{
-    border-right: solid 4px #aaaaaa;
+    border-right: solid 6px #EBEBEB;
 }
   
 .momento:nth-child(even) .descripcion {
-    border-left: solid 4px #aaaaaa;
+    border-left: solid 6px #EBEBEB;
 }
   
 .momento:nth-child(even) .descripcion::after{
     left: -10px;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 12px solid #aaaaaa;
+    border-right: 12px solid #EBEBEB;
     border-left: none;
 }
   

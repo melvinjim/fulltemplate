@@ -41,7 +41,7 @@
     content: '';
     position: absolute;
     top: calc(30% + 10px);
-    right: calc(-6.01% - 11.5px);
+    right: calc(-6.01% - 12.5px);
     height: 20px;
     width: 20px;
     background-color: rgb(255 255 255);
@@ -50,7 +50,7 @@
 }
   
 .momento:nth-child(even)::after {
-    left: calc(-6.11% - 8.5px);
+    left: calc(-6.11% - 10.5px);
 }
   
 .momento .descripcion {
@@ -80,42 +80,42 @@
     position: relative;
     left: 520px;
     color: rgb(255, 0, 0);
-    top: 60px;
+    top: 57px;
 }
 
 .fecha-left-t{
     position: relative;
     left: 500px;
     color: rgb(255, 0, 0);
-    top: 33px;
+    top: 30px;
 }
 
 .fecha-left-c{
     position: relative;
     left: 500px;
     color: rgb(255, 0, 0);
-    top: 33px;
+    top: 30px;
 }
 
 .fecha-right-d{
     position: relative;
     right: 170px;
     color: rgb(255, 0, 0);
-    top: 31px;
+    top: 30px;
 }
 
 .fecha-right-c{
     position: relative;
     right: 170px;
     color: rgb(255, 0, 0);
-    top: 31px;
+    top: 30px;
 }
 
 .fecha-right-s{
     position: relative;
     right: 170px;
     color: rgb(255, 0, 0);
-    top: 31px;
+    top: 30px;
 }
 
 .left{

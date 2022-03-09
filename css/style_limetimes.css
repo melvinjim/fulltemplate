@@ -64,28 +64,28 @@
 .momento .descripcion::after {
     content: '';
     position: absolute;
-    right: -13px;
+    right: -10px;
     top: calc(30% + 10px);
     height: 0;
     width: 0;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-left: 12px solid #808080;
+    border-left: 12px solid #aaaaaa;
 }
 
 .left{
-    border-right: solid 4px #808080;
+    border-right: solid 4px #aaaaaa;
 }
   
 .momento:nth-child(even) .descripcion {
-    border-left: solid 4px #808080;
+    border-left: solid 4px #aaaaaa;
 }
   
 .momento:nth-child(even) .descripcion::after{
     left: -10px;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
-    border-right: 12px solid #808080;
+    border-right: 12px solid #aaaaaa;
     border-left: none;
 }
   

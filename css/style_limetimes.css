@@ -1,0 +1,91 @@
+.container{
+    margin: auto;
+}
+
+#time-lines{
+    background-color: #f6f6f6;
+}
+
+.linea-tiempo {
+    position: relative;
+    width: 1000px;
+    max-width: 95vw;
+    margin: auto;
+}
+
+.text-bottom{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.linea-tiempo::before {
+    content: '';
+    position: absolute;
+    width: 3px;
+    background-color: rgb(255, 0, 0);
+    left: 50%;
+    height: 100%;
+}
+  
+.momento {
+    position: relative;
+    width: 45%;
+}
+  
+.momento:nth-child(even) {
+    left: 55%;
+}
+
+.momento::after {
+    content: '';
+    position: absolute;
+    top: calc(30% + 10px);
+    right: calc(-11.11% - 11.5px);
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+}
+  
+.momento:nth-child(even)::after {
+    left: calc(-11.11% - 8.5px);
+}
+  
+.momento .descripcion {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFF;
+    padding: 20px;
+    box-shadow: 0px 0px 14px 1px rgba(230,230,230,0.79);
+}
+
+.momento .descripcion::after {
+    content: '';
+    position: absolute;
+    right: -13px;
+    top: calc(30% + 10px);
+    height: 0;
+    width: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 12px solid #808080;
+}
+
+.left{
+    border-right: solid 4px #808080;
+}
+  
+.momento:nth-child(even) .descripcion {
+    border-left: solid 4px #808080;
+}
+  
+.momento:nth-child(even) .descripcion::after{
+    left: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 12px solid #808080;
+    border-left: none;
+}
+  

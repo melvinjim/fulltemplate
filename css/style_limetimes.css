@@ -1,0 +1,136 @@
+.container{
+    margin: auto;
+}
+
+#time-lines{
+    background-color: #FCFCFC;
+}
+
+.linea-tiempo {
+    position: relative;
+    width: 1000px;
+    max-width: 95vw;
+    margin: auto;
+}
+
+.text-bottom{
+    margin-bottom: 4px;
+    font-style: italic;
+}
+
+.linea-tiempo::before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    background-color: rgb(255, 0, 0);
+    left: 50%;
+    height: 100%;
+}
+  
+.momento {
+    position: relative;
+    width: 47%;
+    box-sizing: border-box;
+}
+  
+.momento:nth-child(even) {
+    left: 53%;
+}
+
+.momento::after {
+    content: '';
+    position: absolute;
+    top: calc(30% + 10px);
+    right: calc(-6.01% - 12.5px);
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255 255 255);
+    border-radius: 50%;
+    border: red solid 2px;
+}
+  
+.momento:nth-child(even)::after {
+    left: calc(-6.11% - 10.5px);
+}
+  
+.momento .descripcion {
+    background-color: #FFF;
+    padding: 20px;
+    box-shadow: 0px 0px 14px 1px rgba(230,230,230,0.79);
+}
+
+.title-web-developer{
+    display: block;
+    margin-top: -6%;
+}
+
+.momento .descripcion::after {
+    content: '';
+    position: absolute;
+    right: -10px;
+    top: calc(30% + 10px);
+    height: 0;
+    width: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 12px solid #EBEBEB;
+}
+
+.fecha-left-u{
+    position: relative;
+    left: 520px;
+    color: rgb(255, 0, 0);
+    top: 57px;
+}
+
+.fecha-left-t{
+    position: relative;
+    left: 500px;
+    color: rgb(255, 0, 0);
+    top: 30px;
+}
+
+.fecha-left-c{
+    position: relative;
+    left: 500px;
+    color: rgb(255, 0, 0);
+    top: 30px;
+}
+
+.fecha-right-d{
+    position: relative;
+    right: 170px;
+    color: rgb(255, 0, 0);
+    top: 30px;
+}
+
+.fecha-right-c{
+    position: relative;
+    right: 170px;
+    color: rgb(255, 0, 0);
+    top: 30px;
+}
+
+.fecha-right-s{
+    position: relative;
+    right: 170px;
+    color: rgb(255, 0, 0);
+    top: 30px;
+}
+
+.left{
+    border-right: solid 6px #EBEBEB;
+}
+  
+.momento:nth-child(even) .descripcion {
+    border-left: solid 6px #EBEBEB;
+}
+  
+.momento:nth-child(even) .descripcion::after{
+    left: -10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 12px solid #EBEBEB;
+    border-left: none;
+}
+  
